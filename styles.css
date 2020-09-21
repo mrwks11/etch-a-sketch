@@ -4,23 +4,19 @@
 }
 
 #btn {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 20px;
 }
 
 #container {
     display: grid;
+    width: 800px;
+    height: 800px;
     grid-gap: 0px;
-    grid-template-rows: repeat(var(--grid-rows), 0fr);
-    grid-template-columns: repeat(var(--grid-cols), 0fr);
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
 }
 
 .cell {
     border: 1px solid black;
-    height: 40px;
-    width: 40px;
-}
-
-.highlight {
-    background-color: yellow;
 }
