@@ -12,6 +12,7 @@
     display: grid;
     width: 800px;
     height: 800px;
+    border: 1px solid black;
     grid-gap: 0px;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);

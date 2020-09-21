@@ -20,6 +20,9 @@ function createGrid(rows, cols) {
     const allCells = document.querySelectorAll('.cell');
     Array.from(allCells).forEach(e => e.addEventListener('mouseover', function() {
         // e.style.background = 'black';
+        // let n = 0.1;
+        // e.style.backgroundColor = `rgba(0,0,0,${n})`;
+        // n += 0.1;
         const randomColor = Math.floor(Math.random()*16777215).toString(16);
         e.style.background = `#${randomColor}`;
 
